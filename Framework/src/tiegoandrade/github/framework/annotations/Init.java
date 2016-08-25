@@ -18,5 +18,6 @@ import java.lang.annotation.Target;
  */
 public @interface Init {
 	
+	// Elemento da Annotation
 	boolean runOnInstantiation() default true;
 }
